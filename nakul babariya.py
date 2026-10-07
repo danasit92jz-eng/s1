@@ -1,4 +1,3 @@
-#program 1
 instagram_account =  {}
 while True:
     username = input("enter your username")
@@ -8,8 +7,4 @@ while True:
     else:
         instagram_account[username] = password
         print("your account has been created successfully")
-        #program 2
-        number =[10,15,22,33,40,51]
-        result  = ["even" if number %2==0 else"odd" for number in number]
-        print(result)
-
+        

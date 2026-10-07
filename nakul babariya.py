@@ -1,9 +1,15 @@
-sen_1 =("machine learning and ai are trending")
-position =sen_1.find("ai")
-print("position of 'ai':",position)
-new_sentance =sen_1.replace("ai","artificial inteligence")
-print("new_sentance:",new_sentance)
-sentance_2 = ("data  data mining and big data")
-count = sentance_2.count("data")
-print(count)
+#program 1
+instagram_account =  {}
+while True:
+    username = input("enter your username")
+    password= input("enter your passord")
+    if username in instagram_account:
+        print("this account already exists try another username")
+    else:
+        instagram_account[username] = password
+        print("your account has been created successfully")
+        #program 2
+        number =[10,15,22,33,40,51]
+        result  = ["even" if number %2==0 else"odd" for number in number]
+        print(result)
 
